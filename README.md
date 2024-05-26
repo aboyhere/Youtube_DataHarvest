@@ -42,4 +42,5 @@ to retrieve the desired information
 access the data and do analysis through sql storage system
 
 # Streamlit Run
-go to comment prompt and type your path of your proect then type: streamlit run final_model.py
+go to comment prompt and type your path of your project then type: streamlit run final_model.py
+ex ; c:desktop\proect\ streamlit run final_model.py
