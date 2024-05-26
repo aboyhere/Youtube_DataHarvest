@@ -1,6 +1,6 @@
 # Youtube DataHarvesting and Warehousing
 
-Overview
+# Overview
 This project demonstrates a pipeline for harvesting YouTube data using the YouTube Data API, processing and storing the data in a SQL database, and visualizing the data with Streamlit.
 
 Obtain YouTube API Key
@@ -10,7 +10,7 @@ Enable the YouTube Data API v3.
 Create credentials and get your API key
 
 TOOLS AND LIBRARIES USED: 
-   this project requires the following components:
+this project requires the following components:
    
   PYTHON: Python is a powerful programming language renowned for being easy to learn and understand. Python is the primary language employed in this project for the development of the complete application, including data retrieval, processing, analysis, and visualisation.
   
