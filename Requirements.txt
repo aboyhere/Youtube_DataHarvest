@@ -1,0 +1,7 @@
+
+google-api-python-client
+pymysql/mysql.connect
+streamlit
+pandas
+
+you can use mongodb or postgresql if it is familiar for you
