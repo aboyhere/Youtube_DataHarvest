@@ -3,13 +3,13 @@
 # Overview
 This project demonstrates a pipeline for harvesting YouTube data using the YouTube Data API, processing and storing the data in a SQL database, and visualizing the data with Streamlit.
 
-Obtain YouTube API Key
+# Obtain YouTube API Key
 Go to the Google Cloud Console.
 Create a new project or select an existing project.
 Enable the YouTube Data API v3.
 Create credentials and get your API key
 
-TOOLS AND LIBRARIES USED: 
+# TOOLS AND LIBRARIES USED: 
 this project requires the following components:
    
   PYTHON: Python is a powerful programming language renowned for being easy to learn and understand. Python is the primary language employed in this project for the development of the complete application, including data retrieval, processing, analysis, and visualisation.
@@ -22,7 +22,7 @@ this project requires the following components:
 
   PANDAS: Pandas is one of the essential library of python it provide well defined data manipulation 
 
-REQUIRED LIBRARIES:
+# REQUIRED LIBRARIES:
 
 1.googleapiclient.discovery
 
@@ -32,7 +32,7 @@ REQUIRED LIBRARIES:
 
 5.pandas
 
-#utility:
+# utility:
 
 to retrieve the desired information 
 
