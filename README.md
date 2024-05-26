@@ -9,6 +9,9 @@ Create a new project or select an existing project.
 Enable the YouTube Data API v3.
 Create credentials and get your API key
 
+# instructions:
+you have to install all those mentioned libraries before start to program go to your IDE and open cmt prompt type pip install -r requirement.txt
+
 # TOOLS AND LIBRARIES USED: 
 this project requires the following components:
    
@@ -37,3 +40,6 @@ this project requires the following components:
 to retrieve the desired information 
 
 access the data and do analysis through sql storage system
+
+# Streamlit Run
+go to comment prompt and type your path of your proect then type: streamlit run final_model.py
