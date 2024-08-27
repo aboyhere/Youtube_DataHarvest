@@ -1,7 +1,14 @@
-
-google-api-python-client
-pymysql/mysql.connect
+googleapiclient.discovery
+pandas as pd
+json
+datetime
+isodate 
+re
 streamlit
-pandas
+from streamlit import set_option
+from datetime import datetime
+from sqlalchemy import create_engine
+Plotly.express as px
+pymysql
 
 you can use mongodb or postgresql if it is familiar for you
