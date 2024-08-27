@@ -1,7 +1,7 @@
 # Youtube DataHarvesting and Warehousing
 
 # Overview
-This project demonstrates a pipeline for harvesting YouTube data using the YouTube Data API, processing and storing the data in a SQL database, and visualizing the data with Streamlit.
+This project demonstrates a pipeline for harvesting YouTube data using the YouTube Data API, processing and storing the data in a SQL database, and visualizing the data with Streamlit.The project's core functionality relies on the Extract, Transform, Load process features.
 
 # Obtain YouTube API Key
 Go to the Google Cloud Console.
