@@ -14,7 +14,7 @@ import pymysql
 
 
 
-
+#lets dive into our project
 
 
 api_service_name = "youtube"
@@ -55,7 +55,7 @@ def get_playlist_name(channel_id):
     response = request.execute()
     data=response['items'][0]['contentDetails']['relatedPlaylists']['uploads']
     return data
-
+#date and time convertion 
 def to_seconds(duration): #eg P1W2DT6H21M32S
     week = 0
     day  = 0
@@ -119,7 +119,7 @@ def get_video_details(playlist_id):
         'video_id' : video_id,
         'video_tittle':video_response['items'][0]['snippet']['title'],
         'video_Description':video_response['items'][0]['snippet'].get('description'), 
-        #'video_tag' :','.join(video_response['items'][0]['snippet'].get('tags',['NA])),                                  #'video_tags': video_response['items'][0]['snippet].get('tags', [])#
+        'video_tag' :','.join(video_response['items'][0]['snippet'].get('tags',['NA])),                                 
         'published_date':video_response['items'][0]['snippet'].get('publishedAt',None).replace('Z',''),                            # get results if the key is present in dict it gives otherwise it gives none --for avoiding key error#
         'view_count': int(video_response['items'][0]['statistics'].get('viewCount',0)),
         'likecount':int( video_response['items'][0]['statistics'].get('likeCount',0)),
